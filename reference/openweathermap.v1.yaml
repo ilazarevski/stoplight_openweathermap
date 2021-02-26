@@ -236,12 +236,12 @@ components:
       title: unauthorized_response
       type: object
       properties:
-        code:
+        cod:
           type: integer
         message:
           type: string
       required:
-        - code
+        - cod
         - message
   securitySchemes:
     app_id:
